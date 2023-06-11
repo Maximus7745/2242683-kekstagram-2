@@ -8,7 +8,7 @@ let comentMessages =['Всё отлично!',
 let names = ['Абакум', 'Абрам', 'Абросим', 'Аввакум', 'Август', 'Авдей', 'Авдий', 'Авель', 'Авенир', 'Аверий', 'Аверкий', 'Аверьян'];
 export function createPhotoes(){
     let lastCommentId = 30;
-    let photoes = new Array(25);
+    let photoes = new Array();
     for(let i = 1; i < 26; i++){
         let photo =    { id : i,
         url: 'photos/' + i + '.jpg',
