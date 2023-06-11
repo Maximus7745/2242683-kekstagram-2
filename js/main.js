@@ -1,2 +1,3 @@
-import data from './data.js';
-import util from './util.js';
+import './data.js';
+let big_picture = document.querySelector('.big-picture');
+//big_picture.classList.remove('hidden');
